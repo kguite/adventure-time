@@ -23,14 +23,13 @@ body {
 	margin: 0 auto;
 	font-family: 'Cormorant Garamond', serif;
 	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 70%;
+	width: 80%;
+	justify-items: center;
 	
 }
 
 button {
-	width: 120px;
+	width: 150px;
 	background-color: lightblue;
 	opacity: .8;
 	color: red;
