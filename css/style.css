@@ -1,0 +1,102 @@
+
+
+body {
+	background-image: url('https://wallpapercave.com/wp/Z75gczo.jpg');
+	background-position: fixed; 
+	background-repeat: no-repeat; 
+	background-size: cover;
+	font-family: 'Cormorant Garamond', serif;
+}
+
+
+
+.hidden{
+	display: none;
+}
+
+.visible {
+	display: block;
+}
+
+.buttons {
+	align-items: center;
+	margin: 0 auto;
+	font-family: 'Cormorant Garamond', serif;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	
+}
+
+button {
+	width: 120px;
+	background-color: lightblue;
+	opacity: .8;
+	color: red;
+	border: 5px solid white;
+	border-radius: 5px;
+	font-family: 'Cormorant Garamond', serif;
+	font-weight: bold;
+	text-align: center;
+	margin: 10px;
+}
+
+#logo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 35%;
+}
+
+#tagline {
+	display: block;
+	margin-left: 60%;
+	color: red;
+	width: 33%;
+}
+
+#finn {
+	margin-top: 70px;
+	float: right;
+	width: 110px;
+}
+
+#jake {
+	float: right;
+	margin-right: 230px;
+	margin-top: 200px;
+	width: 150px;
+}
+
+#bmo {
+	float: right;
+	margin-right: 750px;
+	margin-top: 140px;
+	width: 90px;
+}
+
+#iceKing {
+	float: right;
+	margin-right: 230px;
+	margin-top: 137px;
+	width: 90px;
+}
+
+#princessBubblegum {
+	float: right;
+	margin-right: 600px;
+	width: 180px;
+	margin-top: 115px;
+}
+
+#jamesBaxter {
+	float: left;
+	margin-left: 20px;
+	margin-top: 60px;
+	width: 200px;
+}
+
+#characters {
+	
+}
