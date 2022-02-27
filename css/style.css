@@ -11,11 +11,11 @@ body {
 
 
 .hidden{
-	display: none;
+	visibility: hidden;
 }
 
 .visible {
-	display: block;
+	display: flex;
 }
 
 .buttons {
@@ -25,7 +25,7 @@ body {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 80%;
+	width: 70%;
 	
 }
 
@@ -56,42 +56,53 @@ button {
 	width: 33%;
 }
 
-#finn {
-	margin-top: 70px;
+#iceKing {
 	float: right;
-	width: 110px;
-}
+	padding: 1px, 1px, 1px, 1px;
+	width: 90px;
+	margin-top: 130px;
+	margin-left: 70px;
+	margin-right: 120px;
 
-#jake {
-	float: right;
-	margin-right: 230px;
-	margin-top: 200px;
-	width: 150px;
 }
 
 #bmo {
-	float: right;
-	margin-right: 750px;
-	margin-top: 140px;
+	padding: 1px, 1px, 1px, 1px;
 	width: 90px;
+	margin-left: 250px;
+	margin-top: 250px;
+
 }
 
-#iceKing {
+
+#finn {
+	padding: 1px, 1px, 1px, 1px;
 	float: right;
-	margin-right: 230px;
-	margin-top: 137px;
-	width: 90px;
+	width: 110px;
+	margin-top: 50px;
+
 }
+
+#jake {
+	padding: 1px, 1px, 1px, 1px;
+	width: 150px;
+	margin-left: 50px;
+}
+
+
 
 #princessBubblegum {
 	float: right;
-	margin-right: 600px;
+	padding: 1px, 1px, 1px, 1px;
 	width: 180px;
-	margin-top: 115px;
+	margin-top: 120px;
+	margin-right: 40px;
+
 }
 
 #jamesBaxter {
 	float: left;
+	padding: 1px, 1px, 1px, 1px;
 	margin-left: 20px;
 	margin-top: 60px;
 	width: 200px;

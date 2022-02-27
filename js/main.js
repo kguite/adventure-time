@@ -4,7 +4,6 @@ const bmo = document.querySelector('#bmo')
 const iceKing = document.querySelector('#iceKing')
 const princessBubblegum = document.querySelector('#princessBubblegum')
 const jamesBaxter = document.querySelector('#jamesBaxter')
-const all = document.querySelector('#all')
 
 document.querySelector('#finnDisplay').addEventListener('click', finnDisplay)
 document.querySelector('#jakeDisplay').addEventListener('click', jakeDisplay)
@@ -12,7 +11,6 @@ document.querySelector('#bmoDisplay').addEventListener('click', bmoDisplay)
 document.querySelector('#iceKingDisplay').addEventListener('click', iceKingDisplay)
 document.querySelector('#princessBubblegumDisplay').addEventListener('click', princessBubblegumDisplay)
 document.querySelector('#jamesBaxterDisplay').addEventListener('click', jamesBaxterDisplay)
-document.querySelector('#allDisplay').addEventListener('click', allDisplay)
 
 
 
@@ -70,11 +68,3 @@ function jamesBaxterDisplay(){
 	jamesBaxter.classList.toggle('hidden')
 }
 
-function allDisplay(){
-	finn.classList.add('visible')
-	jake.classList.add('visible')
-	bmo.classList.add('visible')
-	iceKing.classList.add('visible')
-	princessBubblegum.classList.add('visible')
-	jamesBaxter.classList.add('visible')
-}
