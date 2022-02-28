@@ -1,3 +1,7 @@
+alert('full screen desktop only, for now!')
+
+
+
 const finn = document.querySelector('#finn')
 const jake = document.querySelector('#jake')
 const bmo = document.querySelector('#bmo')
