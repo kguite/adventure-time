@@ -1,4 +1,4 @@
-alert('full screen desktop only, for now!')
+alert('full screen please!')
 
 
 
